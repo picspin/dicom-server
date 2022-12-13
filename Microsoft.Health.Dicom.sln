@@ -80,6 +80,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.FellowOakD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Dicom.Benchmark", "src\Microsoft.Health.Dicom.Benchmark\Microsoft.Health.Dicom.Benchmark.csproj", "{756A3876-6DD1-49CF-A05D-F5C81218039A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Health.Dicom.WebUtilities", "src\Microsoft.Health.Dicom.WebUtilities\Microsoft.Health.Dicom.WebUtilities.csproj", "{A454E17D-3A0B-4EC3-85FF-B3CD56B369C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -198,6 +200,10 @@ Global
 		{756A3876-6DD1-49CF-A05D-F5C81218039A}.Debug|x64.Build.0 = Debug|x64
 		{756A3876-6DD1-49CF-A05D-F5C81218039A}.Release|x64.ActiveCfg = Release|x64
 		{756A3876-6DD1-49CF-A05D-F5C81218039A}.Release|x64.Build.0 = Release|x64
+		{A454E17D-3A0B-4EC3-85FF-B3CD56B369C8}.Debug|x64.ActiveCfg = Debug|x64
+		{A454E17D-3A0B-4EC3-85FF-B3CD56B369C8}.Debug|x64.Build.0 = Debug|x64
+		{A454E17D-3A0B-4EC3-85FF-B3CD56B369C8}.Release|x64.ActiveCfg = Release|x64
+		{A454E17D-3A0B-4EC3-85FF-B3CD56B369C8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -230,6 +236,7 @@ Global
 		{7AE5FC7B-CE2D-4B5A-B8BB-9B673469EA88} = {176641B3-297C-4E04-A83D-8F80F80485E8}
 		{ADD2B971-3C5C-429A-B954-A55FA0FA987D} = {AEDC6C96-15FF-4AFB-BD49-3549211AACCF}
 		{756A3876-6DD1-49CF-A05D-F5C81218039A} = {176641B3-297C-4E04-A83D-8F80F80485E8}
+		{A454E17D-3A0B-4EC3-85FF-B3CD56B369C8} = {176641B3-297C-4E04-A83D-8F80F80485E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		RESX_SortFileContentOnSave = True
